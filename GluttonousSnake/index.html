@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>贪吃蛇</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="score"><span class="fen">分数：</span><span class="fen d_fen"></span></div>
+    <div id="app">
+
+    </div>
+    <div id="btn">
+        <button class="btn startBtn">开始游戏</button>
+        <button class="btn stopBtn">停止游戏</button>
+        <button class="btn restartBtn">重新开始</button>
+    </div>
+    <script src="js/Game.js"></script>
+    <script src="js/Snake.js"></script>
+    <script src="js/Food.js"></script>
+    <script>
+        var game = new Game()
+    </script>
+</body>
+</html>
